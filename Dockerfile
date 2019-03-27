@@ -1,3 +1,3 @@
 FROM ubuntu:18.04
-RUN apt update -yqq && apt install -y iputils-ping dnsutils tcpdump curl traceroute iproute2 vim jq yq
+RUN apt update -yqq && apt install -y iputils-ping dnsutils tcpdump curl traceroute iproute2 vim jq kafkacat
 CMD bash
